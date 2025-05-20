@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrayGitSync", "TrayGitSync\TrayGitSync.csproj", "{A82A9DA5-AAB8-4E5F-B87F-74A7EBA7892B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrayGitSync.Tests", "TrayGitSync.Tests\TrayGitSync.Tests.csproj", "{57980116-2F5E-44D1-9114-B9953080E1F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{A82A9DA5-AAB8-4E5F-B87F-74A7EBA7892B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A82A9DA5-AAB8-4E5F-B87F-74A7EBA7892B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A82A9DA5-AAB8-4E5F-B87F-74A7EBA7892B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57980116-2F5E-44D1-9114-B9953080E1F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57980116-2F5E-44D1-9114-B9953080E1F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57980116-2F5E-44D1-9114-B9953080E1F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57980116-2F5E-44D1-9114-B9953080E1F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
