@@ -120,6 +120,8 @@ public class RemoteStorageGit : IRemoteStorage
         Directory.CreateDirectory(path);
         RunGitCommand("init", path, config);
         RunGitCommand($"remote add origin {remoteUrl}", path, config);
+        RunGitCommand($"pull origin master", path, config);
+        RunGitCommand($"push -u origin master", path, config);
     }
 
     private static long ParsePushOutput(string output)

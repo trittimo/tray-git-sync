@@ -86,7 +86,7 @@ public class TrayApp : ApplicationContext
         }
         catch (Exception ex)
         {
-            ShowProgress("Upload failed:\n" + ex.Message, true);
+            ShowProgress("Upload failed:\n" + ex.Message, true, true);
         }
     }
 
@@ -98,8 +98,9 @@ public class TrayApp : ApplicationContext
             _remoteStorage.Download(_config!);
             ShowProgress("Download complete.", true);
         }
-        catch (Exception)
+        catch (Exception ex)
         {
+            ShowProgress($"Error: {ex.Message}", true, true);
         }
     }
 
